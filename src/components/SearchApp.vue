@@ -43,7 +43,7 @@ export default {
   name: "SearchApp",
   components: { ResultItem },
   props: ["card"],
-  data() {
+  datam() {
     return {
       search: "",
       cards: [
